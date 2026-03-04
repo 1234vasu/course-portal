@@ -1,0 +1,39 @@
+.top{
+    color:black ;
+  
+    text-align:center;
+    background-color:rgb(244, 232, 217);
+    }
+.ava>h3{
+    font-size: 25px;
+    color:blue
+}
+.ava>a{
+    display:flex;
+    justify-content: center;
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 20px;
+    
+}
+.ava>a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.inc>h3{
+    color: blue;
+    font-size: 25px;
+}
+.inc>p{
+    color:black;
+    font-size: 20px;
+}
+.com>h3{
+    color:blue;
+    font-size: 25px;
+
+}
+.com>p{
+    font-size: 20px;
+}
+

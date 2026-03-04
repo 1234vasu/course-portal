@@ -1,0 +1,19 @@
+.std{ 
+  flex-direction: column;
+  display:flex;
+  gap: 10px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  
+}
+.reg{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.std>h2{
+    color:blue;
+    text-align: center;
+}

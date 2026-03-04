@@ -1,0 +1,19 @@
+.log{ 
+  flex-direction: column;
+  display:flex;
+  gap: 15px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+.log-container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.log>h1{
+    color:blue;
+    text-align: center;
+}

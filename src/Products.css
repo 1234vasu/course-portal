@@ -1,0 +1,19 @@
+.cart{
+    margin:20px;
+    background-color: aqua;
+    width:20%;
+    border: radius 12px;
+    text-align:center;
+    
+}
+.image{
+    margin-top :5px;
+    width:40px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+button{
+    background-color:burlywood;
+}
+
