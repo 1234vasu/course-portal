@@ -2,9 +2,12 @@ import Navbar from './Navbar'
 import './Question.css'
 function Question(){
     return(
+         
         <>
         <Navbar/>
+
         <div class="quiz">
+            <div className="new">
         <h1>Create Question</h1>
         <label>Question text</label>
         <input type="text" placeholder="Enter your question"/>
@@ -20,8 +23,12 @@ function Question(){
             <option value="Quiz">Option C</option>
             <option value="Quiz">Option D</option>
         </select>
-        <button>Save Question</button>
         </div>
+        </div>
+     
+        
+        <button>Submit</button>
+        
    </>
         
     )

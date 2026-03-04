@@ -15,6 +15,7 @@ import Login from './Login'
 import {BrowserRouter, Routes,Route} from "react-router-dom";
 import Home from './Home'
 import Question from './Question'
+import Quiz from './Quiz'
 
 
 function App() {
@@ -22,13 +23,12 @@ function App() {
   return (
     <>
     <BrowserRouter>
-      <Routes>
-    <Route path="/" element={<Home/>}></Route>
-    <Route path="/Studentdash" element={<Studentdash/>}></Route>
-    <Route path="/Login" element={<Login/>}></Route>
-    <Route path="/Student" element={<Student/>}></Route>
+      
     
-   </Routes>
+    <Quiz/>
+    
+    
+   
     </BrowserRouter>
 
       

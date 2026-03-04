@@ -1,6 +1,44 @@
-.quiz{
+.new{
    flex-direction: column;
    display: flex;
-   width: 50%;;
+   width: 30%;
 
+}
+
+.new>label{
+     font-size: 25px;
+     margin-bottom: 20px;
+     color: blue;
+     
+}
+.new>input{
+     font-size: 20px;
+     margin-bottom: 15px;
+   
+}
+button{
+   background-color:blue;
+   color: black;
+   display: block;
+   margin:20px auto;
+
+  
+   
+}
+.quiz{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.edit>h1{
+   color:rgb(71, 219, 219);
+}
+.edit>label{
+   font-size: 25px;
+   color: blue;
+}
+.edit>input{
+   font-size: 20px;
 }
